@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*background: url('./assets/images/img12.jpg') center no-repeat;*/
+}
+.app_wrapper{
+    padding: 30px 0;
+}
+.card_wrapper{
+    width: 1060px;
+    margin: 40px auto 0;
+}
+img{
+    /*width: 100px;*/
+    display: none;
+}
+.button{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    background: rgba(0,0,0,.8);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}
+.pagenumWrapper{
+    margin: 0 auto;
+    width: 1060px;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+}
+.clear{
+    clear: both;
+}
+.activeButton{
+    background: coral;
+    color: #fff;
+}
+.time_box{
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: right;
+}
+input[type='number']{
+    width: 50px;
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
