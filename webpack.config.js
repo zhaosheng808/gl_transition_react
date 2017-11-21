@@ -67,7 +67,7 @@ module.exports = (options = {}) => ({
       // chunks: ['vendor'] // 只有在vendor中配置的文件才会提取公共代码块至manifest的js文件中
     }),
     /* 上线需要注释掉热更新 ，否则 chunkhash 会报错 */
-    new webpack.HotModuleReplacementPlugin(),
+    // new webpack.HotModuleReplacementPlugin(),
   ],
   resolve: {
     alias: {
