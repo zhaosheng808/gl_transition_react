@@ -1,4 +1,4 @@
-# react-demo
+# gl_transition_react
 
 ## 1.安装依赖
 
